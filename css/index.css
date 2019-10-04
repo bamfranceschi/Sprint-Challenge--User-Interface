@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bannerContainer{
+    padding-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +120,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3{
+    background-color: cadetblue;
+}
+
+.box4{
+    background-color: coral;
+}
+
+.box5{
+    background-color: crimson;
+}
+
+.box6{
+    background-color: forestgreen;
+}
+
+.box7{
+    background-color: darkorchid;
+}
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9{
+    background-color: indigo;
+}
+
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +198,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page Specific CSS */
+
+.summary{
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutBoxes{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.aboutBox {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.aboutText{
+    padding: 20px 0px;
+}
+
+.learnMore{
+	border: 1px solid black;
+	background-color: white;
+	width: 35%;
+	padding: 5px;
+	border-radius: 8px;
+    text-align: center;
+}
+
+.conclusion{
+    padding: 20px;
 }
